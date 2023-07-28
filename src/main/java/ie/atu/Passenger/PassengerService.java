@@ -15,7 +15,7 @@ public class PassengerService {
         return myPassengers;
     }
 
-    public Passenger getMyPassenger( String passengerID) {
+    public Passenger getMyPassenger(String passengerID) {
         Passenger myPassenger = new Passenger("Mr","Enoch","123",123,20);
         return myPassenger;
     }
